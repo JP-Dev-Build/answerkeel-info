@@ -1,13 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
-  <!-- chat bubble (customer support) -->
-  <rect x="22" y="46" width="212" height="146" rx="38" fill="#0f766e"/>
-  <path d="M64 188 L54 236 L116 188 Z" fill="#0f766e"/>
-  <!-- storefront awning (small business) -->
-  <path d="M58 60 L202 60 L214 98 L46 98 Z" fill="#ffffff"/>
-  <path d="M92 60 L87 98 L103 98 L106 60 Z" fill="#99f6e4"/>
-  <path d="M128 60 L124 98 L140 98 L142 60 Z" fill="#99f6e4"/>
-  <path d="M164 60 L160 98 L176 98 L178 60 Z" fill="#99f6e4"/>
-  <path d="M46 98 a12 12 0 0 1 24 0 a12 12 0 0 1 24 0 a12 12 0 0 1 24 0 a12 12 0 0 1 24 0 a12 12 0 0 1 24 0 a12 12 0 0 1 24 0 a12 12 0 0 1 24 0 Z" fill="#ffffff"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="tile" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#128c80"/>
+      <stop offset="1" stop-color="#0c5f59"/>
+    </linearGradient>
+  </defs>
+  <!-- tile -->
+  <rect width="512" height="512" rx="116" fill="url(#tile)"/>
+  <g transform="translate(0 -12)">
+  <!-- speech bubble: body plus tail, one white shape -->
+  <rect x="88" y="118" width="336" height="244" rx="72" fill="#ffffff"/>
+  <path d="M138 340 L138 414 L236 346 Z" fill="#ffffff" stroke="#ffffff" stroke-width="18" stroke-linejoin="round"/>
   <!-- answer check -->
-  <path d="M92 152 L118 180 L168 118" fill="none" stroke="#ffffff" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M184 242 L238 296 L334 186" fill="none" stroke="#0e766e" stroke-width="42" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
 </svg>
