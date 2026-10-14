@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- chat bubble (customer support) -->
+  <rect x="22" y="46" width="212" height="146" rx="38" fill="#0f766e"/>
+  <path d="M64 188 L54 236 L116 188 Z" fill="#0f766e"/>
+  <!-- storefront awning (small business) -->
+  <path d="M58 60 L202 60 L214 98 L46 98 Z" fill="#ffffff"/>
+  <path d="M92 60 L87 98 L103 98 L106 60 Z" fill="#99f6e4"/>
+  <path d="M128 60 L124 98 L140 98 L142 60 Z" fill="#99f6e4"/>
+  <path d="M164 60 L160 98 L176 98 L178 60 Z" fill="#99f6e4"/>
+  <path d="M46 98 a12 12 0 0 1 24 0 a12 12 0 0 1 24 0 a12 12 0 0 1 24 0 a12 12 0 0 1 24 0 a12 12 0 0 1 24 0 a12 12 0 0 1 24 0 a12 12 0 0 1 24 0 Z" fill="#ffffff"/>
+  <!-- answer check -->
+  <path d="M92 152 L118 180 L168 118" fill="none" stroke="#ffffff" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
